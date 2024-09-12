@@ -1,0 +1,355 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.principal {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+
+header {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    background-color:rgba(53, 53, 53, 1)
+
+}
+
+.texto1 {
+
+    font-size: 30px;
+    color: #f7f7f7;
+    height: 80%;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.secao1 {
+
+    width: 100%;
+    height: 71vh;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.img1 {
+    
+
+    width: 50%;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+.texto2 {
+
+    width: 50%;
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 2vh;
+    
+
+    h1{
+
+        font-size: 4.5vh;
+        color: rgba(0, 0, 0, 1);
+        height: 19vh;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-left: 2vh;
+        padding-top: 10vh;
+        text-align: center;
+    }
+
+    p{
+
+        font-size: 25px;
+        color: rgba(0, 0, 0, 1);
+        height: 78%;
+        font-family: "Inter", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-left: 16vh;
+        padding-right: 15vh;
+        text-align: center;
+
+    }
+}
+
+.botao {
+
+    height: 8vh;
+    width:35vh;
+    margin-left: 32vh;
+    margin-bottom: 8vh;
+    background-color: rgba(149, 126, 126, 1);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 33px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+
+
+}
+
+.secao2 {
+
+    height: 150vh;
+}
+
+.quadromarrom {
+
+    background-color: rgba(149, 126, 126, 1);
+    height: 140vh;
+    width: 93%;
+    margin-top: 5.2vh;
+    margin-left: 6.5vh;
+    border-radius: 20px;
+
+
+    h1{
+
+        font-size: 10vh;
+        color: rgb(255, 255, 255);
+        height: 18vh;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-top: 5vh;
+        text-align: center;
+        text-decoration: underline;    
+    }
+}
+
+.secao2a {
+
+    background-color:  rgba(149, 126, 126, 1);
+    height: 70%;
+    width: 84%;
+    margin-left: 8%;
+    display: grid;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    gap: 50px;
+
+
+}
+
+.bloco {
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.textobloco {
+
+    width: 75%;
+
+    h1{
+
+        font-size: 7vh;
+        color: rgb(0, 0, 0);
+        height: 12vh;
+        font-family: "Inter", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        padding-top: 4vh;
+        text-align:center;
+        text-decoration: none
+
+    }
+
+    p{
+
+        color: rgba(0, 0, 0, 1);
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        text-align:center;
+        font-size: 25px;
+        font-weight: 200;
+        margin-left: 5%;
+        margin-right: 5%;
+
+
+ 
+    }
+
+}
+
+.imgbloco {
+
+
+img {
+
+    height: 100%;
+    width: 100%;
+}
+
+
+}
+
+
+@media (max-width: 1025px) and (max-height:1400px){
+
+
+    .secao1 {
+
+        display: flex;
+        flex-direction: column;
+        height: 200%;
+    }
+
+    .img1 {
+
+        width: 100%;
+
+
+    }
+
+    .texto2 {
+
+        width: 100%;
+
+        h1 {
+
+            margin-right: 20px;
+            height: 12vh;
+            
+        }
+
+    }
+
+    .botao{
+
+        margin-top: 3vh;
+        margin-left: 28%;
+    }
+
+    .secao2 {
+
+        height: 3000x;
+    }
+
+
+    .quadromarrom{
+
+        margin-left: 2.6vh;
+        height:2400px;
+        margin-bottom: 2.5vh;
+
+    }
+
+    .secao2a {
+
+        height: 60%;
+        gap: 16vh;
+    }
+
+    .bloco{
+
+        height: 130%;
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textobloco{
+
+        height: 70%;
+
+        h1{
+            
+            font-size: 3.5vh;
+            text-align: center;
+            margin-left: 6.5vh;
+            height: 28%;
+            width: 100%;
+            
+        }
+
+        p{
+
+            margin-left: 16%;
+            width: 100%;
+
+
+
+
+        }
+
+    }
+
+
+    .imgbloco{
+
+        width: 100%;
+        height: 80%;
+
+
+    }
+
+}
